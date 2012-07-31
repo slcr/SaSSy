@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+// Theme Name: Basic Oktober SASS-Sheet
+// Theme URI: http://oktober.de
+// Author: Oktober GmbH <Chris Jahn>
+// Author URI: http://oktober.de/
+// Description: Basis Stylesheet based on SASS
+
+
+// ------------------------------------------------------------------------
+
+@import "compass";
+
+// First of all, load the Variables
+@import "partials/variable";
+
+// RESET ALL THE THINGS! .o/
+@import "partials/reset";
+
+// Clearfix 'n stuff
+@import "partials/hacks";
+
+// Some Mixins to completely lose yourself…
+@import "partials/mixins";
+
+// Animations to work with
+@import "partials/animations";
+
+// Form Styles, from labels to input over textareas
+@import "partials/forms";
+
+// import some font-awesome with a lot of icons to get along with
+@import "partials/font-awesome";
+
+// some media queries with custom breakpoints and mixins
+@import "partials/media-queries";
+
+// a grid that still needs some love
+@import "partials/grid";
+
+// all the headlines and paragraphs you love
+@import "partials/typography";
+
+// --- IF USING WORDPRESS -------------------------------------------------
+//@import "partials/wordpress"
+
+// ------------------------------------------------------------------------
+
+// Basic Declarations, all content goes here
+@import "partials/base";

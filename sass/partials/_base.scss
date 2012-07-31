@@ -1,0 +1,71 @@
+// Base styles
+// Setup your baseline, selection and links
+// =================================================================================
+
+/* 	LINKS
+	----------------- */
+a {
+	color: $linkColor;
+	text-decoration: none;
+	&:visited {
+		color: $linkColor;
+	}
+	&:hover {
+		color: $linkHover;
+		text-decoration: none;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+}
+
+/* 	BODY ELEMENTS
+	----------------- */
+::selection {
+  background-color: #000;
+  color: #fff;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background-color: #000;
+  color: #fff;
+  text-shadow: none;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.no-display {
+  display: none;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: $backgroundColor;
+  color: $fontColor;
+  font: $base-font-size/$base-line-height $helvetica;
+  @include background-image(linear-gradient(#fff 20%, #0c0 50%, #000 80%));
+}
+
+/* Content
+============================================ */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background-color: #dabc00;
+  text-align: right;
+  height: 45px;
+  line-height: 5px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}

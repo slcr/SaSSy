@@ -1,0 +1,50 @@
+/* HACKS 
+============================================= */
+
+// This basic method is preferred for the usual case, when positioned
+// content will not show outside the bounds of the container.
+//
+// Recommendations include using this in conjunction with a width.
+// Credit: [quirksmode.org](http://www.quirksmode.org/blog/archives/2005/03/clearing_floats.html)
+@mixin clearfix {
+  overflow: hidden;
+  @include has-layout;
+}
+
+/* 	CLEARFIX
+	http://nicolasgallagher.com/micro-clearfix-hack/
+	----------------- */
+.clearfix:before, 
+.clearfix:after { 
+	content: ""; 
+	display: table; 
+}
+
+.clearfix:after { 
+	clear: both; 
+}
+
+.clearfix { 
+	*zoom: 1;
+}
+
+/* 	CLEAR ELEMENT
+	----------------- */
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+
+
+@mixin contrast($bg-color) {
+  @if lightness($bg-color) < 30% {
+    color: #eee;
+  } @else {
+    color: #333;
+  }
+}

@@ -1,0 +1,35 @@
+// Media Queries
+// Needs SASS 3.2
+
+@mixin respond($media) {
+  @if $media == $huge {
+    @media only screen and (max-width: 1600px) { @content; }
+  }
+  @if $media == $desktop {
+    @media only screen and (max-width: 1250px) { @content; }
+  }
+  @if $media == $tablet {
+    @media only screen and (max-width: 768px) { @content; }
+  }
+  @else if $media == $mobile {
+    @media only screen and (max-width: 600px)  { @content; }
+  }
+}
+
+
+//	How To Use It:
+//	.foo {
+//		float: left;
+//		width: 1000px;
+//	
+//		@include respond(tablet) {
+//			float: none;
+//			width: 600px;
+//		}
+//		@include respond(iphone) {
+//			width: 480px;
+//		}
+//		@include respond(huge) {
+//			width: 1500px;
+//		}
+//	}
