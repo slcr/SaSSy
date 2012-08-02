@@ -55,6 +55,7 @@ Es werden folgende Scripte geladen:
     @import "partials/base";
   
   
+
 ### Konfiguration
 
     project_type = :stand_alone 
@@ -80,3 +81,23 @@ Es werden folgende Scripte geladen:
      
     # disable the asset cache buster 
     asset_cache_buster :none
+    
+
+
+### Usage of Media Queries:
+
+    .foo {
+    	float: left;
+    	width: 1200px;
+    
+    	@include respond($landscape) {
+    		width: 1000px;
+    	}
+    	@include respond($portrait) {
+    		float: none;
+    		width: 700px;
+    	}
+    	@include respond($mobile) {
+    		width: 400px;
+    	}
+    }
