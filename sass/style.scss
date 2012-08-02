@@ -17,8 +17,8 @@
 // RESET ALL THE THINGS! .o/
 @import "partials/reset";
 
-// Clearfix 'n stuff
-@import "partials/hacks";
+// some media queries with custom breakpoints and mixins
+@import "partials/media-queries";
 
 // Some Mixins to completely lose yourself…
 @import "partials/mixins";
@@ -32,14 +32,14 @@
 // import some font-awesome with a lot of icons to get along with
 @import "partials/font-awesome";
 
-// some media queries with custom breakpoints and mixins
-@import "partials/media-queries";
-
 // a grid that still needs some love
 @import "partials/grid";
 
 // all the headlines and paragraphs you love
 @import "partials/typography";
+
+// Clearfix 'n stuff
+@import "partials/hacks";
 
 // --- IF USING WORDPRESS -------------------------------------------------
 //@import "partials/wordpress"

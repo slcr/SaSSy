@@ -3,16 +3,19 @@
 
 @mixin respond($media) {
   @if $media == $huge {
-    @media only screen and (max-width: 1600px) { @content; }
+    @media only screen and (max-width: $huge) { @content; }
   }
   @if $media == $desktop {
-    @media only screen and (max-width: 1250px) { @content; }
+    @media only screen and (max-width: $desktop) { @content; }
   }
-  @if $media == $tablet {
-    @media only screen and (max-width: 768px) { @content; }
+  @if $media == $landscape {
+    @media only screen and (max-width: $landscape) { @content; }
+  }
+  @if $media == $portrait {
+    @media only screen and (max-width: $portrait) { @content; }
   }
   @else if $media == $mobile {
-    @media only screen and (max-width: 600px)  { @content; }
+    @media only screen and (max-width: $mobile)  { @content; }
   }
 }
 
@@ -22,14 +25,14 @@
 //		float: left;
 //		width: 1000px;
 //	
-//		@include respond(tablet) {
+//		@include respond($portrait) {
 //			float: none;
 //			width: 600px;
 //		}
-//		@include respond(iphone) {
+//		@include respond($mobile) {
 //			width: 480px;
 //		}
-//		@include respond(huge) {
+//		@include respond($huge) {
 //			width: 1500px;
 //		}
 //	}

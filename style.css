@@ -27,21 +27,6 @@ input[type="checkbox"] { vertical-align: text-bottom; }
 
 table { border-collapse: collapse; border-spacing: 0; }
 
-/* HACKS 
-============================================= */
-/* 	CLEARFIX
-	http://nicolasgallagher.com/micro-clearfix-hack/
-	----------------- */
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-
-.clearfix:after { clear: both; }
-
-.clearfix { *zoom: 1; }
-
-/* 	CLEAR ELEMENT
-	----------------- */
-.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
-
 /* Animations */
 @-webkit-keyframes rotate { 0% { -webkit-transform: rotate(0deg); }
   100% { -webkit-transform: rotate(360deg); } }
@@ -807,6 +792,21 @@ dl { margin: 0 1.625em; }
 dt { font-weight: bold; }
 
 dd { margin-bottom: 1.625em; }
+
+/* HACKS 
+============================================= */
+/* 	CLEARFIX
+	http://nicolasgallagher.com/micro-clearfix-hack/
+	----------------- */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+
+.clearfix:after { clear: both; }
+
+.clearfix { *zoom: 1; }
+
+/* 	CLEAR ELEMENT
+	----------------- */
+.clear { clear: both; display: block; overflow: hidden; visibility: hidden; width: 0; height: 0; }
 
 /* 	LINKS
 	----------------- */
