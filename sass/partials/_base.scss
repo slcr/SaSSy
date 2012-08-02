@@ -52,7 +52,7 @@ body {
   background: $backgroundColor;
   color: $fontColor;
   font: $base-font-size/$base-line-height $helvetica;
-  @include background-image(linear-gradient(#fff 20%, #0c0 50%, #000 80%));
+  @include background-image(linear-gradient(#fff 20%, #0c0 50%, #000 70%));
 }
 
 /* Content
