@@ -51,30 +51,7 @@ html, body {
 body {
   background: $backgroundColor;
   color: $fontColor;
-  font: $base-font-size/$base-line-height $helvetica;
-  @include background-image(linear-gradient(#fff 20%, #0c0 50%, #000 70%));
-}
-
-.foo {
-  width: 1000px;
-  @include respond($landscape) { content: 800px; }
-  @include respond($mobile) { content: 300px; }
-  @include respond($huge) { content: 1400px; }
-  @include border-radius(20px);
-  @include opacity(0.5);
 }
 
 /* Content
 ============================================ */
-
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  padding: 20px 100px;
-  background-color: #dabc00;
-  text-align: right;
-  height: 45px;
-  line-height: 5px;
-  border-top: 1px solid rgba(255,255,255,0.2);
-}

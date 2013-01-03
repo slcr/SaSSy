@@ -1063,135 +1063,121 @@ ul.icons li .icon-large:before, ul.icons li .icon-large:before { /* 1.5 increase
 /* line 243, sass/partials/_grid.scss */
 .first { margin-left: 0; }
 
-@font-face { font-family: 'GeogrotesqueMedium'; src: url("fonts/geogtq-md-webfont.eot"); src: url("fonts/geogtq-md-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/geogtq-md-webfont.woff") format("woff"), url("fonts/geogtq-md-webfont.ttf") format("truetype"), url("fonts/geogtq-md-webfont.svg#GeogrotesqueMdMedium") format("svg"); font-weight: 400;
-  /* Medium */
-  font-style: normal; }
-
-@font-face { font-family: 'GeogrotesqueRegular'; src: url("fonts/geogtq-rg-webfont.eot"); src: url("fonts/geogtq-rg-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/geogtq-rg-webfont.woff") format("woff"), url("fonts/geogtq-rg-webfont.ttf") format("truetype"), url("fonts/geogtq-rg-webfont.svg#GeogrotesqueRgRegular") format("svg"); font-weight: 200;
-  /* Regular */
-  font-style: normal; }
-
 /* 	HEADING
 	----------------- */
-/* line 32, sass/partials/_typography.scss */
-h1 { font-size: 76px; line-height: 1.3em; color: #000; margin-left: -60px; text-transform: uppercase; font-family: 'GeogrotesqueMedium'; }
+/* line 8, sass/partials/_typography.scss */
+h1 { font-size: 76px; line-height: 1.3em; color: #000; text-transform: uppercase; }
 
-/* line 41, sass/partials/_typography.scss */
-h1 span { color: #fff; font-size: .4em; font-style: italic; }
-
-/* line 47, sass/partials/_typography.scss */
-.dark h1 { color: #fff; }
-
-/* line 51, sass/partials/_typography.scss */
+/* line 15, sass/partials/_typography.scss */
 h2 { font-size: 37px; line-height: 1.3em; text-transform: uppercase; margin: 30px 0; }
 
-/* line 58, sass/partials/_typography.scss */
+/* line 22, sass/partials/_typography.scss */
 h3 { font-size: 18px; line-height: 1.5em; }
 
-/* line 63, sass/partials/_typography.scss */
+/* line 27, sass/partials/_typography.scss */
 h4 { font-size: 16px; line-height: 1.5em; }
 
-/* line 68, sass/partials/_typography.scss */
+/* line 32, sass/partials/_typography.scss */
 h5 { font-size: 14px; line-height: 1.5em; }
 
-/* line 73, sass/partials/_typography.scss */
+/* line 37, sass/partials/_typography.scss */
 h6 { font-size: 14px; line-height: 1.5em; }
 
 /* 	TEXT ELEMENT
 	----------------- */
-/* line 82, sass/partials/_typography.scss */
+/* line 46, sass/partials/_typography.scss */
 p { word-wrap: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; margin: 0 0 1.5em; }
 
-/* line 90, sass/partials/_typography.scss */
+/* line 54, sass/partials/_typography.scss */
 em { font-style: italic; }
 
-/* line 95, sass/partials/_typography.scss */
+/* line 59, sass/partials/_typography.scss */
 b, strong { font-weight: bold; }
 
-/* line 99, sass/partials/_typography.scss */
+/* line 63, sass/partials/_typography.scss */
 small { font-size: 85%; }
 
-/* line 103, sass/partials/_typography.scss */
+/* line 67, sass/partials/_typography.scss */
 cite { font-style: normal; }
 
-/* line 107, sass/partials/_typography.scss */
+/* line 71, sass/partials/_typography.scss */
 dfn { font-style: italic; font-weight: bold; }
 
-/* line 113, sass/partials/_typography.scss */
+/* line 77, sass/partials/_typography.scss */
 sub, sup { font-size: 75%; line-height: 0; position: relative; }
 
-/* line 119, sass/partials/_typography.scss */
+/* line 83, sass/partials/_typography.scss */
 sup { top: -0.5em; vertical-align: sub; }
 
-/* line 124, sass/partials/_typography.scss */
+/* line 88, sass/partials/_typography.scss */
 sub { bottom: -0.25em; vertical-align: super; }
 
-/* line 130, sass/partials/_typography.scss */
+/* line 94, sass/partials/_typography.scss */
 abbr, acronym { font-size: 90%; text-transform: uppercase; border-bottom: 1px dotted #dddddd; cursor: help; }
 
-/* line 137, sass/partials/_typography.scss */
+/* line 101, sass/partials/_typography.scss */
 del { color: #aaaaaa; text-decoration: line-through; vertical-align: baseline; }
 
-/* line 143, sass/partials/_typography.scss */
+/* line 107, sass/partials/_typography.scss */
 pre { background: #ffff99; border-bottom: 1px solid #ff2; border-top: 1px solid #ff2; color: #990; margin: 1.5em 0; padding: 0.75em 0.45em; }
 
-/* line 152, sass/partials/_typography.scss */
+/* line 116, sass/partials/_typography.scss */
 code { background: #ffff99; color: #990; font-size: 11px; line-height: 1.2em; padding: 0.3em; }
 
-/* line 164, sass/partials/_typography.scss */
+/* line 128, sass/partials/_typography.scss */
 pre, code, kbd, samp, tt { font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; }
 
-/* line 168, sass/partials/_typography.scss */
+/* line 132, sass/partials/_typography.scss */
 ins { text-decoration: underline; }
 
-/* line 172, sass/partials/_typography.scss */
+/* line 136, sass/partials/_typography.scss */
 mark { background: #ff0; color: #990; font-size: 11px; }
 
 /* 	BLOCKQUOTE
 	----------------- */
-/* line 183, sass/partials/_typography.scss */
+/* line 147, sass/partials/_typography.scss */
 blockquote em, blockquote i, blockquote cite { font-style: normal; }
-/* line 186, sass/partials/_typography.scss */
+/* line 150, sass/partials/_typography.scss */
 blockquote cite { color: #555555; display: block; padding: 10px 0 0 20px; position: relative; }
-/* line 191, sass/partials/_typography.scss */
+/* line 155, sass/partials/_typography.scss */
 blockquote cite:before { content: '\2014'; left: 0; position: absolute; }
 
-/* line 202, sass/partials/_typography.scss */
+/* line 166, sass/partials/_typography.scss */
 q:before, q:after, blockquote:before, blockquote:after { content: ""; }
 
-/* line 206, sass/partials/_typography.scss */
+/* line 170, sass/partials/_typography.scss */
 address { display: block; margin: 0 0 1.5em; font-style: italic; }
 
 /* 	LISTS
 	----------------- */
-/* line 215, sass/partials/_typography.scss */
+/* line 179, sass/partials/_typography.scss */
 ul, ol { margin: 1em 0; padding: 0 0 0 2.25em; }
 
-/* line 220, sass/partials/_typography.scss */
+/* line 184, sass/partials/_typography.scss */
 ul { list-style: disc; }
 
-/* line 224, sass/partials/_typography.scss */
+/* line 188, sass/partials/_typography.scss */
 ol { list-style-type: decimal; }
 
-/* line 228, sass/partials/_typography.scss */
+/* line 192, sass/partials/_typography.scss */
 ol ol { list-style: upper-alpha; }
 
-/* line 232, sass/partials/_typography.scss */
+/* line 196, sass/partials/_typography.scss */
 ol ol ol { list-style: lower-roman; }
 
-/* line 236, sass/partials/_typography.scss */
+/* line 200, sass/partials/_typography.scss */
 ol ol ol ol { list-style: lower-alpha; }
 
-/* line 241, sass/partials/_typography.scss */
+/* line 205, sass/partials/_typography.scss */
 li ul, li ol { margin: 0; }
 
-/* line 245, sass/partials/_typography.scss */
+/* line 209, sass/partials/_typography.scss */
 dl { margin: 0 1.625em; }
 
-/* line 249, sass/partials/_typography.scss */
+/* line 213, sass/partials/_typography.scss */
 dt { font-weight: bold; }
 
-/* line 253, sass/partials/_typography.scss */
+/* line 217, sass/partials/_typography.scss */
 dd { margin-bottom: 1.625em; }
 
 /* HACKS 
@@ -1242,18 +1228,7 @@ a:focus { outline: thin dotted; }
 html, body { height: 100%; width: 100%; }
 
 /* line 51, sass/partials/_base.scss */
-body { background: white; color: #555555; font: 0.66667 "Helvetica Neue", Arial, Helvetica, sans-serif; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(20%, #ffffff), color-stop(50%, #00cc00), color-stop(70%, #000000)); background-image: -webkit-linear-gradient(#ffffff 20%, #00cc00 50%, #000000 70%); background-image: -moz-linear-gradient(#ffffff 20%, #00cc00 50%, #000000 70%); background-image: -o-linear-gradient(#ffffff 20%, #00cc00 50%, #000000 70%); background-image: linear-gradient(#ffffff 20%, #00cc00 50%, #000000 70%); }
-
-/* line 58, sass/partials/_base.scss */
-.foo { width: 1000px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; opacity: 0.5; filter: alpha(opacity=50); }
-@media only screen and (max-width: 1024px) { /* line 58, sass/partials/_base.scss */
-  .foo { content: 800px; } }
-@media only screen and (max-width: 740px) { /* line 58, sass/partials/_base.scss */
-  .foo { content: 300px; } }
-@media only screen and (max-width: 1300px) { /* line 58, sass/partials/_base.scss */
-  .foo { content: 1400px; } }
+body { background: white; color: #555555; }
 
 /* Content
 ============================================ */
-/* line 70, sass/partials/_base.scss */
-footer { position: fixed; bottom: 0; width: 100%; padding: 20px 100px; background-color: #dabc00; text-align: right; height: 45px; line-height: 5px; border-top: 1px solid rgba(255, 255, 255, 0.2); }
